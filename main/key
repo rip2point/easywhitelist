@@ -1,2 +1,6 @@
-local key = "keyhere"
+local key = "EEEEE"
+
+if getgenv().stringlower == true then
+   string.lower(key)
+end
 return key
