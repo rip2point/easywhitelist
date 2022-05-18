@@ -1,6 +1,6 @@
 local key = "EEEEE"
 
 if getgenv().stringlower == true then
-   string.lower(key)
+   local key = string.lower(key)
 end
 return key
